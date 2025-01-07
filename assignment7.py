@@ -1,8 +1,18 @@
 import pymssql
-
+import os
+from dotenv import load_dotenv
 
 def main():
-    conn = pymssql.connect(host='cypress.csil.sfu.ca', user='s_htk', password='t2jYA77aY244HMFN', database='htk354')
+
+    load_dotenv()
+
+    H = os.getenv('DB_HOST')
+    U = os.getenv('DB_USER')
+    P = os.getenv('DB_PASSWORD')
+    D = os.getenv('DB_NAME')
+
+
+    conn = pymssql.connect(host=H, user=U, password=P, database=D)
 
     cursor = conn.cursor(as_dict=True)
 
