@@ -12,7 +12,7 @@ This is a Yelp Application that allows users to retrieve information such as rev
 ## How to set up
 
 1. Download Yelp Dataset  
-This application is designed to work with the Yelp dataset provided on their website. Visit the [Yelp Dataset page](https://www.yelp.com/dataset) and download the dataset if you wish to test the app.  
+This application is designed to work with the Yelp dataset provided on their website. Visit the [Yelp Dataset page](https://www.yelp.com/dataset) and download the dataset.  
 Ensure your dataset file names are as follows: business, checkin, friendship, review, tip, user_yelp.
 
 3. Installation
